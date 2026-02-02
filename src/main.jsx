@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import Lenis from "@studio-freight/lenis";
+import Lenis from "lenis";
 import "./index.css";
 
 const lenis = new Lenis({
@@ -21,3 +21,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </React.StrictMode>
 );
+
